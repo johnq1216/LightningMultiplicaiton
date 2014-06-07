@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/finalScore"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="5 problems solved!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="195dp"
+        android:layout_height="204dp"
+        android:layout_gravity="center"
+        android:src="@drawable/smily3" />
+
+    <TextView
+        android:id="@+id/tvRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Record: 10 problems solved"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/bPlayAgain"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#66FFFF00"
+        android:text="Play Again!"
+           android:height="40dp"
+                            android:width="100dp" />
+
+    <Button
+        android:id="@+id/bMainMenu"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#660000FF"
+        android:text="Main Menu" 
+           android:height="40dp"
+                            android:width="100dp"/>
+
+</LinearLayout>
